@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="h3-transfer is a personal utility for transferring files through Google Drive.">
+  <title>h3-transfer</title>
+  <style>
+    body { margin: 0; color: #172a34; background: #f7f8f6; font: 18px/1.65 system-ui, sans-serif; }
+    main { max-width: 720px; margin: 8vh auto; padding: 32px 24px; }
+    .eyebrow { color: #47616c; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { font-size: clamp(36px, 7vw, 52px); line-height: 1.15; letter-spacing: -.03em; }
+    h2 { margin-top: 36px; font-size: 23px; }
+    a { color: #08647a; text-underline-offset: 3px; }
+    code { font-size: .9em; overflow-wrap: anywhere; }
+    footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid #ccd6d7; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Personal file transfer utility</p>
+    <h1>h3-transfer</h1>
+    <p>h3-transfer is a personal utility operated by Siyuan Yang. It uses Google Drive as temporary storage to move files between computers configured by the operator, with rclone handling uploads and downloads.</p>
+    <h2>How it works</h2>
+    <p>The operator authorizes a Google account, uploads selected files to Drive, and retrieves those files on a destination computer. Transfer files can be removed from Drive when they are no longer needed.</p>
+    <h2>Limited Drive access</h2>
+    <p>The app requests <code>https://www.googleapis.com/auth/drive.file</code>. This permits access to files created by the app or explicitly made available to it. It does not request access to every file in the account.</p>
+    <p>This is a personal tool, with no public registration or hosted upload form. This website provides app information; authorization takes place on Google's website.</p>
+    <footer>
+      <a href="privacy.html">Privacy policy</a> &middot;
+      <a href="mailto:siyuan.reed@gmail.com">Contact the operator</a>
+    </footer>
+  </main>
+</body>
+</html>

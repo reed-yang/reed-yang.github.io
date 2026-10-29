@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the h3-transfer personal Google Drive file transfer utility.">
+  <title>Privacy policy | h3-transfer</title>
+  <style>
+    body { margin: 0; color: #172a34; background: #f7f8f6; font: 18px/1.65 system-ui, sans-serif; }
+    main { max-width: 720px; margin: 6vh auto; padding: 32px 24px; }
+    h1 { font-size: clamp(32px, 6vw, 44px); line-height: 1.2; letter-spacing: -.03em; }
+    h2 { margin-top: 32px; font-size: 22px; }
+    a { color: #08647a; text-underline-offset: 3px; }
+    code { font-size: .9em; overflow-wrap: anywhere; }
+    .meta, footer { color: #47616c; font-size: 15px; }
+    footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid #ccd6d7; }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="./">h3-transfer</a>
+    <h1>Privacy policy</h1>
+    <p class="meta">Effective October 29, 2026</p>
+    <p>h3-transfer is a personal file transfer utility operated by Siyuan Yang. This policy describes the Google account data used by its Drive integration.</p>
+    <h2>Data access and purpose</h2>
+    <p>The app requests the <code>drive.file</code> permission to create, read, update, and delete files created by the app or explicitly made available to it. File contents and metadata, such as names, sizes, identifiers, and checksums, are used to perform and verify transfers between computers configured by the operator.</p>
+    <h2>Storage and recipients</h2>
+    <p>Files pass through the authorized Google Drive account and the source and destination computers selected by the operator. OAuth tokens are stored in the rclone configuration on computers where the operator configures this remote. Transfer logs may contain filenames, file identifiers, timestamps, sizes, and error information.</p>
+    <p>The Drive integration's purpose is file transfer. It does not sell Google account data or use it for advertising. Google processes data under its own privacy policy. Access on each participating computer is governed by that computer's access controls.</p>
+    <h2>Retention and deletion</h2>
+    <p>Transfer files remain in Drive until the operator or a configured cleanup process removes them. Local copies and logs may remain on participating computers until removed there. Deleting a Drive copy does not automatically delete copies on other computers.</p>
+    <h2>Your controls</h2>
+    <p>You can revoke the app's access in your <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revocation prevents future authorized access but does not itself delete existing files or local copies. You can delete Drive files through Google Drive and remove local configuration, files, and logs from participating computers.</p>
+    <h2>This website</h2>
+    <p>These information pages are hosted on GitHub Pages. They contain no analytics scripts, sign-in form, or file upload form. GitHub may process ordinary request information to operate the hosting service, as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+    <h2>Contact and updates</h2>
+    <p>Contact <a href="mailto:siyuan.reed@gmail.com">siyuan.reed@gmail.com</a> with questions about h3-transfer or its data practices. Changes to this policy will appear on this page with an updated effective date.</p>
+    <footer><a href="./">Back to h3-transfer</a></footer>
+  </main>
+</body>
+</html>
